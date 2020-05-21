@@ -9,8 +9,10 @@ library(tidyverse)
 library(glmnet)
 library(gridExtra)
 
+# Set working directory to the folder in which you dowloading all files and read the csv from the data folder in this repo.
+
 # Read in data file and store in std.data variable
-std.data<- read.csv("C://Users//ojewi//Desktop//R.workspace//Datamining//mydata.csv")
+std.data<- read.csv("Put folder address for working director here")
 
 ##### Partioning and Modeling Data #####
 # Ridge Model alpha = 0 
@@ -21,7 +23,7 @@ n        =    dim(std.data)[1] # number of observations
 p        =    dim(std.data)[2]-1
 y        =   data.matrix(std.data %>% select(1)) # select target/response
 X        =   data.matrix(std.data%>% select(2:52)) # select predictors
-
+hist(y)
 n.train        =     0.8*n
 n.test         =     n-n.train
 
