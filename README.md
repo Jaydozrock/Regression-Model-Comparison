@@ -1,2 +1,2 @@
 # Regression-Model-Comparison
-Regression Project Files on Survey Data
+A Comparison of Ridge, Elastic Net, Lasso and Randon Forest on Survey Data
