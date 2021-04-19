@@ -22,7 +22,7 @@ First ensure that the data file and the project code are in the same working dir
 1. Install and load the neccessary packages.
 2. Read in the data file and carefully select your response variable and the predictors.
 3. Set 80% of the data as the training dataset and the remaining as the test dataset.
-4. Create appropriate variables to stores the re4siduals from each model.
+4. Create appropriate variables to stores the residuals from each model.
 5. Plot the R-Square values boxplot of each model for both test and train.
 6. Plot 10-Fold Cross Validation Curves for Lasso Ridge and Elastic-Net
 7. Time each model so that they can be compared for performance.
