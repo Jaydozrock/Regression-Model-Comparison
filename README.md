@@ -29,9 +29,9 @@ First ensure that the data file and the project code are in the same working dir
 7. Time each model so that they can be compared for performance.
 
 ## Findings
-**Top Music predictors:** Classical, Musicals, Rock, Metal, Alternative. 
-**Top Movie predictors:** Comedy, Sci-Fi, Horror, Fantasy, War. 
-**Other Top Predictors:** Weight, Interest in Cars, Passive Sports, Shopping, Science and Technology 
+**Top Music predictors:** Classical, Musicals, Rock, Metal, Alternative. <br />
+**Top Movie predictors:** Comedy, Sci-Fi, Horror, Fantasy, War. <br />
+**Other Top Predictors:** Weight, Interest in Cars, Passive Sports, Shopping, Science and Technology <br />
 Ridge, Elastic-Net and Lasso performed similarly while Random forest had a longer runtime.
 
 
