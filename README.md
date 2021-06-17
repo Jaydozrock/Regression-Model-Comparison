@@ -29,6 +29,11 @@ First ensure that the data file and the project code are in the same working dir
 7. Time each model so that they can be compared for performance.
 
 ## Findings
+**Top Music predictors:** Classical, Musicals, Rock, Metal, Alternative. 
+**Top Movie predictors:** Comedy, Sci-Fi, Horror, Fantasy, War. 
+**Other Top Predictors:** Weight, Interest in Cars, Passive Sports, Shopping, Science and Technology 
+Ridge, Elastic-Net and Lasso performed similarly while Random forest had a longer runtime.
+
 
 
 A full breakdown of how the above steps were completed can be seen in the project [code](https://github.com/OjeWilliams/Regression-Model-Comparison/blob/master/9890FinalProj.R) and the results were presented in the presentation [slides](https://github.com/OjeWilliams/Regression-Model-Comparison/blob/master/Proposal%20and%20Presentation/STAT%209890%20Regression%20Presentation.pptx).
