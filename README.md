@@ -8,7 +8,7 @@ This project was conducted as part of a Damining Class (STA-9890). It involves a
 
 **Lasso Regression**: Lasso stands for Least Absolute Shrinkage and Selection Operator is a regression technique that allows for an easy way in selecting important features from our dataset because it supresses the coefficient of many features to zero. It heavily penalizes the absolute size of coefficients and based on your tuning parameter; you can control how many of your coefficients you want to be pushed to zero. 
 
-**Ridge Regression**: Ridge penalizes the aquared size of coefficents and as such it leads to overal smaller coefficients as it pushes them closer to zero. Essentially, Ridge allows us to shrink the the coefficeints of features which sometimes allows us an easier time to see which features are most important.
+**Ridge Regression**: Ridge penalizes the squared size of coefficents and as such it leads to overal smaller coefficients as it pushes them closer to zero. Essentially, Ridge allows us to shrink the the coefficeints of features which sometimes allows us an easier time to see which features are most important.
 
 **Elastic-Net Regression**:  Elastic-Net is a combination between Lasso and Ridge. It blends penalizing based on absolute size and squared size of coefficients.
 
